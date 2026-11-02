@@ -3,40 +3,25 @@
     <channel>
         <title>Mac Sound Control</title>
         <item>
-            <title>1.0.9</title>
-            <pubDate>Fri, 31 Jul 2026 22:37:47 +0800</pubDate>
-            <link>https://github.com/RoperYoung/MacSoundControl</link>
-            <sparkle:version>119</sparkle:version>
-            <sparkle:shortVersionString>1.0.9</sparkle:shortVersionString>
+            <title>1.0.10</title>
+            <pubDate>Mon, 02 Nov 2026 21:06:14 +0800</pubDate>
+            <link>https://github.com/RoperYoung/MacSoundControl-for-Mac</link>
+            <sparkle:version>127</sparkle:version>
+            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Mac Sound Control 1.0.9
+            <description sparkle:format="markdown"><![CDATA[# Mac Sound Control 1.0.10
 
-本次正式更新集中完善首次启动、主界面、菜单栏控制与产品品牌体验。
+- 全新分类主界面：玻璃侧栏、紧凑设备卡片、独立偏好设置。
+- 输入/输出状态移至选择按钮旁，减少卡片高度。
+- 修复声音测试卡片顶部阴影裁切和偏好设置边框、留白。
+- 菜单栏图标随音量显示静音、一条、两条或三条弧线。
+- 菜单底部操作统一对齐，保留连续设置能力。
+- 更新源与下载入口适配仓库新名称。
 
-- 手动打开应用时自动展示主界面；开机登录项启动仍保持菜单栏静默运行；
-- 新增原生单页主界面、八项侧栏导航与菜单栏使用引导；
-- 优化系统输出音量、静音状态、应用音量统一/分开控制与输入输出设备选择；
-- 改进声音测试、电平汇总、输入源切换和输入通道重连按钮；
-- 统一应用名称为 `Mac Sound Control`，换用新的产品图标，并优化 About 项目链接；
-- 保持本地音频处理，不录制、不保存、不上传音频。
-
-系统要求：macOS 14 或更高版本；分应用音量需要 macOS 15 或更高版本。
-
-## English
-
-This production update refines first launch, the main window, menu bar controls,
-and product identity.
-
-- Show the main window on manual launch while keeping login-item launches silent;
-- Add a native single-page window with eight sidebar destinations and menu bar guidance;
-- Improve system output, mute state, unified/per-app volume modes, and device selection;
-- Refine input testing, live level summaries, source switching, and input reconnect controls;
-- Standardize the `Mac Sound Control` name, adopt the new product icon, and improve the About project link;
-- Keep all audio processing local without recording, saving, or uploading audio.
-
-Requires macOS 14 or later. Per-application volume requires macOS 15 or later.
+支持 macOS 14+、Apple Silicon 与 Intel；分应用音量需要 macOS 15+。
+旧版本若提示无法检查更新，请从此发布页下载 DMG 手动覆盖安装一次；设置会保留，此后使用新版更新入口。
 ]]></description>
-            <enclosure url="https://github.com/RoperYoung/MacSoundControl/releases/download/v1.0.9/Mac-Sound-Control-1.0.9.dmg" length="3349005" type="application/octet-stream" sparkle:edSignature="WmPwE0DjFju9iRnqzcbhUOAhJWnmtCFqBxhchGztsCbTqRSwmLJGm2G9/bmp+HaDFc9BJyfWizM+bsAhIk9QBg=="/>
+            <enclosure url="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases/download/v1.0.10/Mac-Sound-Control-1.0.10.dmg" length="3665443" type="application/octet-stream" sparkle:edSignature="wwvK+TQTTG6s06FLMS2s/ncZWPQQKxlMFdq2/VgWP4a5ZlaRmZxK9T9AHuyPoZw/loSUDwB5OwJNuk1HmyxRBw=="/>
         </item>
     </channel>
 </rss>

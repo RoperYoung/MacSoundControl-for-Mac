@@ -7,7 +7,7 @@
 <h1 align="center">Mac Sound Control</h1>
 
 <p align="center">
-  <strong>一个原生面板，集中控制 Mac 的系统声音、应用音量与麦克风。</strong>
+  <strong>让声音，各就各位。系统、应用与麦克风，在一个原生面板里安排妥当。</strong>
 </p>
 
 <p align="center">
@@ -17,13 +17,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RoperYoung/MacSoundControl/releases">
-    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 Mac Sound Control 1.0.9（Build 119）">
+  <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">
+    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 Mac Sound Control 1.0.10（Build 127）">
   </a>
 </p>
 
 <p align="center">
-  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/MacSoundControl/releases">查看全部版本</a></sub>
+  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">查看全部版本</a></sub>
 </p>
 
 ---
@@ -38,28 +38,9 @@
 
 ## 软件预览
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th width="50%" align="center">分开控制</th>
-      <th width="50%" align="center">统一控制</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" valign="top">
-        <a href="docs/images/macsoundcontrol-menu.png">
-          <img src="docs/images/macsoundcontrol-menu.png" width="400" alt="Mac Sound Control 分开控制模式下的完整菜单栏面板">
-        </a>
-      </td>
-      <td align="center" valign="top">
-        <a href="docs/images/macsoundcontrol-main.png">
-          <img src="docs/images/macsoundcontrol-main.png" width="400" alt="Mac Sound Control 统一控制模式下的紧凑菜单栏面板">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p align="center"><img src="docs/images/overview-1.0.10.png" width="960" alt="Mac Sound Control main window"></p>
+<p align="center"><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">浏览新版产品主页 ↗</a></p>
+<table><tr><th>紧凑设备列表</th><th>声音测试</th></tr><tr><td><img src="docs/images/devices-1.0.10.png" alt="Compact input and output cards"></td><td><img src="docs/images/inputTest-1.0.10.png" alt="Microphone test"></td></tr></table>
 
 ---
 
@@ -67,7 +48,7 @@
 
 Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个地方切换系统输入与输出、调整系统总音量、分别控制应用音量，并让当前麦克风保持在线。它使用 AppKit 与 CoreAudio 构建，不使用 WebView，也不会在 Dock 中留下多余图标。
 
-当前正式版本为 **1.0.9（Build 119）**，同时支持 Apple Silicon 与 Intel Mac。
+当前正式版本为 **1.0.10（Build 127）**，同时支持 Apple Silicon 与 Intel Mac。
 
 ### 核心能力
 
@@ -91,7 +72,7 @@ Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个�
 
 ### 安装
 
-1. 打开 [GitHub Releases](https://github.com/RoperYoung/MacSoundControl/releases)，下载最新的 DMG。
+1. 打开 [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases)，下载最新的 DMG。
 2. 打开 DMG，将应用拖入“应用程序”文件夹。
 3. 启动应用，并按实际使用的功能授予麦克风或系统音频权限。
 4. 点击菜单栏中的扬声器图标开始使用。
@@ -100,7 +81,7 @@ Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个�
 
 ### 安全更新
 
-应用使用 Sparkle 2.9.4 定期读取 GitHub Pages 上的静态更新清单；你也可以在主窗口“关于”区段手动检查更新。每个更新包都同时经过：
+应用使用 Sparkle 2.9.4 定期读取 GitHub Raw 上的静态更新清单；你也可以在主窗口“偏好设置”手动检查更新。每个更新包都同时经过：
 
 - Apple Developer ID 签名；
 - Apple 公证；
@@ -119,7 +100,7 @@ Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个�
 
 这里是 Mac Sound Control 的官方产品与发布仓库，保留产品说明、真实运行截图、更新清单、发布说明和第三方声明。应用源码、测试、构建配置、签名和公证工具不在此仓库中，因此无法从当前仓库二次构建应用。
 
-Mac Sound Control 当前不作为开源软件发布。请只从本项目的 [GitHub Releases](https://github.com/RoperYoung/MacSoundControl/releases) 下载由维护者签名并经 Apple 公证的正式版本。
+Mac Sound Control 当前不作为开源软件发布。请只从本项目的 [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases) 下载由维护者签名并经 Apple 公证的正式版本。
 
 ### 第三方声明
 
@@ -132,3 +113,5 @@ Mac Sound Control 当前不作为开源软件发布。请只从本项目的 [Git
   &nbsp;·&nbsp;
   <a href="#readme-top">返回顶部</a>
 </p>
+
+> 旧版检查更新失败时，请下载新版 DMG 手动覆盖安装一次，已有设置会保留。仓库改名使旧版内置的 Pages 地址失效。

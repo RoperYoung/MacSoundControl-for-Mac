@@ -76,3 +76,6 @@ build.sh
 .env.*
 .DS_Store
 releases/
+
+# Static product landing page.
+!docs/index.html

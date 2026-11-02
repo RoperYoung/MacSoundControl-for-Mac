@@ -17,13 +17,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RoperYoung/MacSoundControl/releases">
-    <img src="Assets/download-macos-en.svg" width="280" alt="Download Mac Sound Control 1.0.9 (Build 119)">
+  <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">
+    <img src="Assets/download-macos-en.svg" width="280" alt="Download Mac Sound Control 1.0.10 (Build 127)">
   </a>
 </p>
 
 <p align="center">
-  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/MacSoundControl/releases">View all releases</a></sub>
+  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">View all releases</a></sub>
 </p>
 
 ---
@@ -38,28 +38,9 @@
 
 ## Product preview
 
-<table width="100%">
-  <thead>
-    <tr>
-      <th width="50%" align="center">Per-app control</th>
-      <th width="50%" align="center">Unified control</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center" valign="top">
-        <a href="docs/images/macsoundcontrol-menu.png">
-          <img src="docs/images/macsoundcontrol-menu.png" width="400" alt="Mac Sound Control menu bar panel in per-app volume control mode">
-        </a>
-      </td>
-      <td align="center" valign="top">
-        <a href="docs/images/macsoundcontrol-main.png">
-          <img src="docs/images/macsoundcontrol-main.png" width="400" alt="Mac Sound Control menu bar panel in unified volume control mode">
-        </a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<p align="center"><img src="docs/images/overview-1.0.10.png" width="960" alt="Mac Sound Control main window"></p>
+<p align="center"><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">Explore the new interface ↗</a></p>
+<table><tr><th>Compact devices</th><th>Microphone test</th></tr><tr><td><img src="docs/images/devices-1.0.10.png" alt="Compact input and output cards"></td><td><img src="docs/images/inputTest-1.0.10.png" alt="Microphone test"></td></tr></table>
 
 ---
 
@@ -67,7 +48,7 @@
 
 Mac Sound Control is a native macOS menu bar utility for switching system inputs and outputs, adjusting the main output, controlling application volumes independently, and keeping the current microphone awake. It is built with AppKit and CoreAudio, uses no WebView, and stays out of the Dock.
 
-The current production release is **1.0.9 (Build 119)**, delivered as a Universal app for Apple Silicon and Intel Macs.
+The current production release is **1.0.10 (Build 127)**, delivered as a Universal app for Apple Silicon and Intel Macs.
 
 ### Highlights
 
@@ -91,7 +72,7 @@ The current production release is **1.0.9 (Build 119)**, delivered as a Universa
 
 ### Install
 
-1. Open [GitHub Releases](https://github.com/RoperYoung/MacSoundControl/releases) and download the latest DMG.
+1. Open [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases) and download the latest DMG.
 2. Open the DMG and drag the app into Applications.
 3. Launch the app and grant microphone or system-audio access only for the features you use.
 4. Click the speaker icon in the menu bar.
@@ -100,7 +81,7 @@ The production app and DMG are signed with Apple Developer ID, notarized by Appl
 
 ### Secure updates
 
-Sparkle 2.9.4 reads a static update feed hosted on GitHub Pages. You can also check manually from the About section. Every update is protected by:
+Sparkle 2.9.4 reads a static update feed hosted on GitHub Raw. You can also check manually from the Preferences. Every update is protected by:
 
 - Apple Developer ID signing;
 - Apple notarization;
@@ -119,7 +100,7 @@ Sparkle asks before installing an available update; silent installation is disab
 
 This is the official product and release repository for Mac Sound Control. It contains product information, real runtime screenshots, the update feed, release notes, and third-party notices. Application source code, tests, build configuration, signing material, and notarization tooling are not included, so the app cannot be rebuilt from this repository.
 
-Mac Sound Control is not currently distributed as open-source software. Download only maintainer-signed and Apple-notarized builds from this project's [GitHub Releases](https://github.com/RoperYoung/MacSoundControl/releases).
+Mac Sound Control is not currently distributed as open-source software. Download only maintainer-signed and Apple-notarized builds from this project's [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases).
 
 ### Third-party notices
 
@@ -132,3 +113,5 @@ Official builds include MacMix-derived portions and Sparkle under their respecti
   &nbsp;·&nbsp;
   <a href="#readme-top">Back to top</a>
 </p>
+
+> If an older version cannot check for updates, download the new DMG and replace the app once. Existing preferences are preserved. The repository rename invalidated the old Pages feed.

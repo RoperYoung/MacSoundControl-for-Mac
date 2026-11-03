@@ -36,11 +36,18 @@
 | **麦克风** | **原生与私密** |
 | 让当前输入保持在线，并在需要时查看实时输入电平。 | AppKit + CoreAudio，无 WebView、无账号、无遥测，也不会上传音频。 |
 
-## 软件预览
+## 两种界面，同一份声音设置
 
-<p align="center"><img src="docs/images/overview-1.0.10.png" width="960" alt="Mac Sound Control main window"></p>
-<p align="center"><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">浏览新版产品主页 ↗</a></p>
-<table><tr><th>紧凑设备列表</th><th>声音测试</th></tr><tr><td><img src="docs/images/devices-1.0.10.png" alt="Compact input and output cards"></td><td><img src="docs/images/inputTest-1.0.10.png" alt="Microphone test"></td></tr></table>
+> 以下菜单与主窗口为新版实机预览，界面和快捷键改进将在后续应用更新提供；当前可下载正式版仍为 1.0.10（Build 127）。
+
+<table>
+<tr><th width="38%">菜单栏 · 随时调节</th><th width="62%">主界面 · 集中管理</th></tr>
+<tr>
+<td valign="top"><a href="docs/images/menubar-current.png"><img src="docs/images/menubar-current.png" width="420" alt="完整的菜单栏下拉面板：系统音量、应用音量、输入输出设备与常驻设置"></a></td>
+<td valign="top"><a href="docs/images/overview-current.jpg"><img src="docs/images/overview-current.jpg" width="700" alt="新版主窗口和紧凑橙色胶囊模式按钮"></a><br><br><strong>点开菜单栏，常用操作就在手边。</strong><br>调整系统与各应用音量、切换输入输出、开启麦克风常驻。主窗口提供分类导航、设备详情与声音测试，两处控制共享同一份设置。<br><br><strong>熟悉的 Mac 快捷键</strong><br>⌘Q 退出 · ⌘W 关闭窗口 · ⌘, 偏好设置 · ⌘H 隐藏<br><br><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">浏览产品主页 ↗</a><br><a href="docs/images/menubar-current.png">查看完整下拉菜单截图 ↗</a></td>
+</tr></table>
+
+<table><tr><th>紧凑设备列表</th><th>声音测试</th></tr><tr><td><img src="docs/images/devices-1.0.10.png" alt="紧凑的输入输出设备卡片"></td><td><img src="docs/images/inputTest-1.0.10.png" alt="原生麦克风声音测试"></td></tr></table>
 
 ---
 

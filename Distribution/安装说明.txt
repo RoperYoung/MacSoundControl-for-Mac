@@ -1,7 +1,7 @@
-Mac Sound Control 1.0.10（Build 126）
+Mac Sound Control 1.0.11（Build 134）
 
 安装：
-1. 打开 Mac-Sound-Control-1.0.10.dmg。
+1. 打开 Mac-Sound-Control-1.0.11.dmg。
 2. 将“Mac Sound Control.app”拖入“应用程序”文件夹。
 3. 从“应用程序”中启动 Mac Sound Control；手动打开时主界面会自动置前。
 4. 按实际使用的功能授予麦克风或“屏幕与系统音频录制”权限。

@@ -3,25 +3,35 @@
     <channel>
         <title>Mac Sound Control</title>
         <item>
-            <title>1.0.10</title>
-            <pubDate>Mon, 02 Nov 2026 21:06:14 +0800</pubDate>
+            <title>1.0.11</title>
+            <pubDate>Mon, 09 Nov 2026 10:21:53 +0800</pubDate>
             <link>https://github.com/RoperYoung/MacSoundControl-for-Mac</link>
-            <sparkle:version>127</sparkle:version>
-            <sparkle:shortVersionString>1.0.10</sparkle:shortVersionString>
+            <sparkle:version>134</sparkle:version>
+            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Mac Sound Control 1.0.10
+            <description sparkle:format="markdown"><![CDATA[# Mac Sound Control 1.0.11
 
-- 全新分类主界面：玻璃侧栏、紧凑设备卡片、独立偏好设置。
-- 输入/输出状态移至选择按钮旁，减少卡片高度。
-- 修复声音测试卡片顶部阴影裁切和偏好设置边框、留白。
-- 菜单栏图标随音量显示静音、一条、两条或三条弧线。
-- 菜单底部操作统一对齐，保留连续设置能力。
-- 更新源与下载入口适配仓库新名称。
+- 菜单栏面板调整为更紧凑的 354 pt 宽度，应用 Logo 放大，名称与音量条靠近，应用之间增加留白。
+- 优化分应用音量拖动：连续提交最新音量，减少拖动时的整页刷新。
+- “统一控制 / 分开控制”统一使用橙色主题，主窗口显示正式应用 Logo。
+- 修复偏好设置关闭按钮点击区域与首次点击响应，支持 Esc 和 ⌘W 关闭。
+- 补齐 ⌘Q、⌘W、⌘,、⌘H、⌘M 等常用 Mac 快捷键。
+- 修复菜单滚动后多个选项悬停高亮残留。
 
 支持 macOS 14+、Apple Silicon 与 Intel；分应用音量需要 macOS 15+。
-旧版本若提示无法检查更新，请从此发布页下载 DMG 手动覆盖安装一次；设置会保留，此后使用新版更新入口。
+1.0.10 用户可在“偏好设置 → 检查更新”升级。更旧版本若提示无法检查更新，请下载 DMG 手动覆盖安装一次，原有设置会保留。
+
+## English
+
+- A compact 354 pt menu with larger app icons, tighter label/slider grouping, and clearer spacing between apps.
+- More responsive per-app volume dragging with continuous latest-value delivery and fewer full-interface refreshes.
+- Consistent orange mode controls and the official app logo in the main window.
+- More reliable Preferences close button, plus Escape and Command-W support.
+- Standard Mac shortcuts and a fix for lingering hover highlights while scrolling the menu.
+
+Requires macOS 14 or later; per-app volume requires macOS 15 or later. Universal for Apple Silicon and Intel Macs.
 ]]></description>
-            <enclosure url="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases/download/v1.0.10/Mac-Sound-Control-1.0.10.dmg" length="3665443" type="application/octet-stream" sparkle:edSignature="wwvK+TQTTG6s06FLMS2s/ncZWPQQKxlMFdq2/VgWP4a5ZlaRmZxK9T9AHuyPoZw/loSUDwB5OwJNuk1HmyxRBw=="/>
+            <enclosure url="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases/download/v1.0.11/Mac-Sound-Control-1.0.11.dmg" length="3665259" type="application/octet-stream" sparkle:edSignature="+0I6c6hWruGgDQa8M7pW56A45j58uDqtAovrqa+rJ/CnxAUyqipklR3khkYOtP9tz9eSssmdknfPV3zGC8H2Dw=="/>
         </item>
     </channel>
 </rss>

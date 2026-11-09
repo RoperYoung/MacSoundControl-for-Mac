@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">
-    <img src="Assets/download-macos-en.svg" width="280" alt="Download Mac Sound Control 1.0.10 (Build 127)">
+    <img src="Assets/download-macos-en.svg" width="280" alt="Download Mac Sound Control 1.0.11 (Build 134)">
   </a>
 </p>
 
@@ -38,13 +38,13 @@
 
 ## Two views. One set of sound controls.
 
-> The menu and main-window screenshots preview the upcoming update, including its interface and keyboard improvements. The current downloadable release remains 1.0.10 (Build 127).
+> Version 1.0.11 includes the compact menu, clearer app grouping, orange mode controls, and standard Mac shortcuts shown in these real app screenshots.
 
 <table>
 <tr><th width="38%">Menu bar · Quick control</th><th width="62%">Main window · A complete overview</th></tr>
 <tr>
 <td valign="top"><a href="docs/images/menubar-current.png"><img src="docs/images/menubar-current.png" width="420" alt="Full menu bar dropdown with system volume, per-app sliders, devices and microphone settings"></a></td>
-<td valign="top"><a href="docs/images/overview-current.jpg"><img src="docs/images/overview-current.jpg" width="700" alt="Main window with compact orange mode controls"></a><br><br><strong>Everyday audio, one click away.</strong><br>Adjust system and per-app volume, switch input and output devices, or keep the microphone awake. Open the main window for dedicated device and input-test pages. Both views share the same settings.<br><br><strong>Familiar Mac shortcuts</strong><br>⌘Q Quit · ⌘W Close window · ⌘, Preferences · ⌘H Hide<br><br><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">Explore the product page ↗</a><br><a href="docs/images/menubar-current.png">View the full menu bar screenshot ↗</a></td>
+<td valign="top"><a href="docs/images/overview-current.png"><img src="docs/images/overview-current.png" width="700" alt="Main window with compact orange mode controls"></a><br><br><strong>Everyday audio, one click away.</strong><br>Adjust system and per-app volume, switch input and output devices, or keep the microphone awake. Open the main window for dedicated device and input-test pages. Both views share the same settings.<br><br><strong>Familiar Mac shortcuts</strong><br>⌘Q Quit · ⌘W Close window · ⌘, Preferences · ⌘H Hide<br><br><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">Explore the product page ↗</a><br><a href="docs/images/menubar-current.png">View the full menu bar screenshot ↗</a></td>
 </tr></table>
 
 <table><tr><th>Compact devices</th><th>Microphone test</th></tr><tr><td><img src="docs/images/devices-1.0.10.png" alt="Compact input and output cards"></td><td><img src="docs/images/inputTest-1.0.10.png" alt="Microphone input test"></td></tr></table>
@@ -55,7 +55,7 @@
 
 Mac Sound Control is a native macOS menu bar utility for switching system inputs and outputs, adjusting the main output, controlling application volumes independently, and keeping the current microphone awake. It is built with AppKit and CoreAudio, uses no WebView, and stays out of the Dock.
 
-The current production release is **1.0.10 (Build 127)**, delivered as a Universal app for Apple Silicon and Intel Macs.
+The current production release is **1.0.11 (Build 134)**, delivered as a Universal app for Apple Silicon and Intel Macs.
 
 ### Highlights
 

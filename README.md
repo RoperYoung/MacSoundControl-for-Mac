@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">
-    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 Mac Sound Control 1.0.10（Build 127）">
+    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 Mac Sound Control 1.0.11（Build 134）">
   </a>
 </p>
 
@@ -38,13 +38,13 @@
 
 ## 两种界面，同一份声音设置
 
-> 以下菜单与主窗口为新版实机预览，界面和快捷键改进将在后续应用更新提供；当前可下载正式版仍为 1.0.10（Build 127）。
+> 当前版本 1.0.11 已包含紧凑菜单、更清晰的应用分组、橙色模式切换和常用 Mac 快捷键。以下为实际运行截图。
 
 <table>
 <tr><th width="38%">菜单栏 · 随时调节</th><th width="62%">主界面 · 集中管理</th></tr>
 <tr>
 <td valign="top"><a href="docs/images/menubar-current.png"><img src="docs/images/menubar-current.png" width="420" alt="完整的菜单栏下拉面板：系统音量、应用音量、输入输出设备与常驻设置"></a></td>
-<td valign="top"><a href="docs/images/overview-current.jpg"><img src="docs/images/overview-current.jpg" width="700" alt="新版主窗口和紧凑橙色胶囊模式按钮"></a><br><br><strong>点开菜单栏，常用操作就在手边。</strong><br>调整系统与各应用音量、切换输入输出、开启麦克风常驻。主窗口提供分类导航、设备详情与声音测试，两处控制共享同一份设置。<br><br><strong>熟悉的 Mac 快捷键</strong><br>⌘Q 退出 · ⌘W 关闭窗口 · ⌘, 偏好设置 · ⌘H 隐藏<br><br><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">浏览产品主页 ↗</a><br><a href="docs/images/menubar-current.png">查看完整下拉菜单截图 ↗</a></td>
+<td valign="top"><a href="docs/images/overview-current.png"><img src="docs/images/overview-current.png" width="700" alt="新版主窗口和紧凑橙色胶囊模式按钮"></a><br><br><strong>点开菜单栏，常用操作就在手边。</strong><br>调整系统与各应用音量、切换输入输出、开启麦克风常驻。主窗口提供分类导航、设备详情与声音测试，两处控制共享同一份设置。<br><br><strong>熟悉的 Mac 快捷键</strong><br>⌘Q 退出 · ⌘W 关闭窗口 · ⌘, 偏好设置 · ⌘H 隐藏<br><br><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">浏览产品主页 ↗</a><br><a href="docs/images/menubar-current.png">查看完整下拉菜单截图 ↗</a></td>
 </tr></table>
 
 <table><tr><th>紧凑设备列表</th><th>声音测试</th></tr><tr><td><img src="docs/images/devices-1.0.10.png" alt="紧凑的输入输出设备卡片"></td><td><img src="docs/images/inputTest-1.0.10.png" alt="原生麦克风声音测试"></td></tr></table>
@@ -55,7 +55,7 @@
 
 Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个地方切换系统输入与输出、调整系统总音量、分别控制应用音量，并让当前麦克风保持在线。它使用 AppKit 与 CoreAudio 构建，不使用 WebView，也不会在 Dock 中留下多余图标。
 
-当前正式版本为 **1.0.10（Build 127）**，同时支持 Apple Silicon 与 Intel Mac。
+当前正式版本为 **1.0.11（Build 134）**，同时支持 Apple Silicon 与 Intel Mac。
 
 ### 核心能力
 

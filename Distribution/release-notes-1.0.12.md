@@ -1,0 +1,17 @@
+# Mac Sound Control 1.0.12
+
+- 菜单栏下拉面板更紧凑，缩小了文字、图标和行高，并为顶部的系统输出音量留出少量间距。
+- 主窗口的应用名称使用常规字重，红黄绿按钮沿用 macOS 原生悬浮交互，位置与标题栏对齐。
+- 偏好设置在主窗口右侧打开，可通过侧栏或 ⌘, 进入。
+- 麦克风测试期间，菜单栏仍使用喇叭图标显示系统输出音量。
+
+支持 Apple Silicon 和 Intel Mac。基础功能需要 macOS 14 或以上版本，分应用音量需要 macOS 15 或以上版本。
+
+## English
+
+- The menu bar dropdown uses smaller text, icons and rows, with a little space above system output volume.
+- App names in the main window use regular weight. The native window buttons are inset and aligned with the title bar.
+- Open Preferences in the main window from the sidebar or with Command-comma.
+- The menu bar speaker continues to show system output volume during microphone tests.
+
+Universal for Apple Silicon and Intel. Requires macOS 14 or later, with macOS 15 or later for per-app volume.

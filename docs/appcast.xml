@@ -3,35 +3,31 @@
     <channel>
         <title>Mac Sound Control</title>
         <item>
-            <title>1.0.11</title>
-            <pubDate>Mon, 09 Nov 2026 10:21:53 +0800</pubDate>
+            <title>1.0.12</title>
+            <pubDate>Mon, 23 Nov 2026 12:14:06 +0800</pubDate>
             <link>https://github.com/RoperYoung/MacSoundControl-for-Mac</link>
-            <sparkle:version>134</sparkle:version>
-            <sparkle:shortVersionString>1.0.11</sparkle:shortVersionString>
+            <sparkle:version>138</sparkle:version>
+            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Mac Sound Control 1.0.11
+            <description sparkle:format="markdown"><![CDATA[# Mac Sound Control 1.0.12
 
-- 菜单栏面板调整为更紧凑的 354 pt 宽度，应用 Logo 放大，名称与音量条靠近，应用之间增加留白。
-- 优化分应用音量拖动：连续提交最新音量，减少拖动时的整页刷新。
-- “统一控制 / 分开控制”统一使用橙色主题，主窗口显示正式应用 Logo。
-- 修复偏好设置关闭按钮点击区域与首次点击响应，支持 Esc 和 ⌘W 关闭。
-- 补齐 ⌘Q、⌘W、⌘,、⌘H、⌘M 等常用 Mac 快捷键。
-- 修复菜单滚动后多个选项悬停高亮残留。
+- 菜单栏下拉面板更紧凑，缩小了文字、图标和行高，并为顶部的系统输出音量留出少量间距。
+- 主窗口的应用名称使用常规字重，红黄绿按钮沿用 macOS 原生悬浮交互，位置与标题栏对齐。
+- 偏好设置在主窗口右侧打开，可通过侧栏或 ⌘, 进入。
+- 麦克风测试期间，菜单栏仍使用喇叭图标显示系统输出音量。
 
-支持 macOS 14+、Apple Silicon 与 Intel；分应用音量需要 macOS 15+。
-1.0.10 用户可在“偏好设置 → 检查更新”升级。更旧版本若提示无法检查更新，请下载 DMG 手动覆盖安装一次，原有设置会保留。
+支持 Apple Silicon 和 Intel Mac。基础功能需要 macOS 14 或以上版本，分应用音量需要 macOS 15 或以上版本。
 
 ## English
 
-- A compact 354 pt menu with larger app icons, tighter label/slider grouping, and clearer spacing between apps.
-- More responsive per-app volume dragging with continuous latest-value delivery and fewer full-interface refreshes.
-- Consistent orange mode controls and the official app logo in the main window.
-- More reliable Preferences close button, plus Escape and Command-W support.
-- Standard Mac shortcuts and a fix for lingering hover highlights while scrolling the menu.
+- The menu bar dropdown uses smaller text, icons and rows, with a little space above system output volume.
+- App names in the main window use regular weight. The native window buttons are inset and aligned with the title bar.
+- Open Preferences in the main window from the sidebar or with Command-comma.
+- The menu bar speaker continues to show system output volume during microphone tests.
 
-Requires macOS 14 or later; per-app volume requires macOS 15 or later. Universal for Apple Silicon and Intel Macs.
+Universal for Apple Silicon and Intel. Requires macOS 14 or later, with macOS 15 or later for per-app volume.
 ]]></description>
-            <enclosure url="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases/download/v1.0.11/Mac-Sound-Control-1.0.11.dmg" length="3665259" type="application/octet-stream" sparkle:edSignature="+0I6c6hWruGgDQa8M7pW56A45j58uDqtAovrqa+rJ/CnxAUyqipklR3khkYOtP9tz9eSssmdknfPV3zGC8H2Dw=="/>
+            <enclosure url="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases/download/v1.0.12/Mac-Sound-Control-1.0.12.dmg" length="3667626" type="application/octet-stream" sparkle:edSignature="e+hSYS6R8KI+yAxJ6ycTy8mRQ4NFXLxkYNslIETQJVp/us8OxLuKmye3WXS+ght+s9RUVXVAYmaLbNJk1EQuAg=="/>
         </item>
     </channel>
 </rss>

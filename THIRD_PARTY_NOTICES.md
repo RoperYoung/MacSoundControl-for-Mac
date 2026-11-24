@@ -1,12 +1,12 @@
 # Third-Party Notices
 
-This distribution-only repository does not publish the MacSoundControl
+This distribution-only repository does not publish the NeoSoundControl
 application source code. The notices below cover third-party components
-included in official MacSoundControl binaries.
+included in official NeoSoundControl binaries.
 
 ## MacMix
 
-MacSoundControl contains code adapted from MacMix v1.5, commit
+NeoSoundControl contains code adapted from MacMix v1.5, commit
 `b62914ffc5d5c671ca51cec4932e4a8499be2de9`:
 
 https://github.com/ljmng7/MacMix
@@ -38,7 +38,7 @@ SOFTWARE.
 
 ## Sparkle
 
-MacSoundControl 1.0.0 embeds Sparkle 2.9.4 to check, verify, download, and
+NeoSoundControl embeds Sparkle 2.9.4 to check, verify, download, and
 install application updates:
 
 https://github.com/sparkle-project/Sparkle

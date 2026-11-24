@@ -1,10 +1,10 @@
 <a id="readme-top"></a>
 
 <p align="center">
-  <img src="Assets/AppIcon.png" width="116" height="116" alt="Mac Sound Control app icon">
+  <img src="Assets/AppIcon.png" width="116" height="116" alt="NeoSoundControl app icon">
 </p>
 
-<h1 align="center">Mac Sound Control</h1>
+<h1 align="center">NeoSoundControl</h1>
 
 <p align="center">
   <strong>One native panel for system audio, per-app volume, and microphones on your Mac.</strong>
@@ -17,13 +17,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">
-    <img src="Assets/download-macos-en.svg" width="280" alt="Download Mac Sound Control 1.0.12 (Build 138)">
+  <a href="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases">
+    <img src="Assets/download-macos-en.svg" width="280" alt="Download NeoSoundControl 1.0.13 (Build 139)">
   </a>
 </p>
 
 <p align="center">
-  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">View all releases</a></sub>
+  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases">View all releases</a></sub>
 </p>
 
 ---
@@ -38,24 +38,26 @@
 
 ## Two views. One set of sound controls.
 
-> Version 1.0.12 makes the menu bar dropdown more compact and places Preferences inside the main window. The screenshots use sample devices and apps.
+> Mac Sound Control is now NeoSoundControl. Version 1.0.13 adds a 342 pt menu bar panel and preferences for appearance, language and menu bar icon visibility. The screenshots use sample devices and apps.
 
 <table>
 <tr><th width="38%">Menu bar · Quick control</th><th width="62%">Main window · A complete overview</th></tr>
 <tr>
 <td valign="top"><a href="docs/images/menubar-current.png"><img src="docs/images/menubar-current.png" width="420" alt="Full menu bar dropdown with system volume, per-app sliders, devices and microphone settings"></a></td>
-<td valign="top"><a href="docs/images/overview-current.png"><img src="docs/images/overview-current.png" width="700" alt="Main window with individual application volume controls"></a><br><br><strong>Everyday audio, one click away.</strong><br>Adjust system and per-app volume, switch input and output devices, or keep the microphone awake. Open the main window for dedicated device and input-test pages. Both views share the same settings.<br><br><strong>Familiar Mac shortcuts</strong><br>⌘Q Quit · ⌘W Close window · ⌘, Preferences · ⌘H Hide<br><br><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">Explore the product page ↗</a><br><a href="docs/images/menubar-current.png">View the full menu bar screenshot ↗</a></td>
+<td valign="top"><a href="docs/images/overview-current.png"><img src="docs/images/overview-current.png" width="700" alt="Main window with individual application volume controls"></a><br><br><strong>Everyday audio, one click away.</strong><br>Adjust system and per-app volume, switch input and output devices, or keep the microphone awake. Open the main window for dedicated device and input-test pages. Both views share the same settings.<br><br><strong>Familiar Mac shortcuts</strong><br>⌘Q Quit · ⌘W Close window · ⌘, Preferences · ⌘H Hide<br><br><a href="https://roperyoung.github.io/NeoSoundControl-for-mac/">Explore the product page ↗</a><br><a href="docs/images/menubar-current.png">View the full menu bar screenshot ↗</a></td>
 </tr></table>
 
-<table><tr><th>Compact devices</th><th>Microphone test</th></tr><tr><td><img src="docs/images/devices-1.0.12.png" alt="Compact input and output cards"></td><td><img src="docs/images/inputTest-1.0.12.png" alt="Microphone input test"></td></tr></table>
+<table><tr><th>Compact devices</th><th>Microphone test</th></tr><tr><td><img src="docs/images/devices-1.0.13.png" alt="Compact input and output cards"></td><td><img src="docs/images/inputTest-1.0.13.png" alt="Microphone input test"></td></tr></table>
+
+[View appearance, language and menu bar icon settings](docs/images/preferences-1.0.13.png)
 
 ---
 
 ## Product overview
 
-Mac Sound Control is a native macOS menu bar utility for switching system inputs and outputs, adjusting the main output, controlling application volumes independently, and keeping the current microphone awake. It is built with AppKit and CoreAudio, uses no WebView, and stays out of the Dock.
+NeoSoundControl is a native macOS menu bar utility for switching system inputs and outputs, adjusting the main output, controlling application volumes independently, and keeping the current microphone awake. It is built with AppKit and CoreAudio, uses no WebView, and stays out of the Dock.
 
-The current production release is **1.0.12 (Build 138)**, delivered as a Universal app for Apple Silicon and Intel Macs.
+The current production release is **1.0.13 (Build 139)**, delivered as a Universal app for Apple Silicon and Intel Macs.
 
 ### Highlights
 
@@ -79,7 +81,7 @@ The current production release is **1.0.12 (Build 138)**, delivered as a Univers
 
 ### Install
 
-1. Open [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases) and download the latest DMG.
+1. Open [GitHub Releases](https://github.com/RoperYoung/NeoSoundControl-for-mac/releases) and download the latest DMG.
 2. Open the DMG and drag the app into Applications.
 3. Launch the app and grant microphone or system-audio access only for the features you use.
 4. Click the speaker icon in the menu bar.
@@ -105,9 +107,9 @@ Sparkle asks before installing an available update; silent installation is disab
 
 ### Repository and source code
 
-This is the official product and release repository for Mac Sound Control. It contains product information, real runtime screenshots, the update feed, release notes, and third-party notices. Application source code, tests, build configuration, signing material, and notarization tooling are not included, so the app cannot be rebuilt from this repository.
+This is the official product and release repository for NeoSoundControl. It contains product information, real runtime screenshots, the update feed, release notes, and third-party notices. Application source code, tests, build configuration, signing material, and notarization tooling are not included, so the app cannot be rebuilt from this repository.
 
-Mac Sound Control is not currently distributed as open-source software. Download only maintainer-signed and Apple-notarized builds from this project's [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases).
+NeoSoundControl is not currently distributed as open-source software. Download only maintainer-signed and Apple-notarized builds from this project's [GitHub Releases](https://github.com/RoperYoung/NeoSoundControl-for-mac/releases).
 
 ### Third-party notices
 

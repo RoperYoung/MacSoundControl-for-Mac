@@ -1,33 +1,33 @@
 <?xml version="1.0" standalone="yes"?>
 <rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
-        <title>Mac Sound Control</title>
+        <title>NeoSoundControl</title>
         <item>
-            <title>1.0.12</title>
-            <pubDate>Mon, 23 Nov 2026 12:14:06 +0800</pubDate>
-            <link>https://github.com/RoperYoung/MacSoundControl-for-Mac</link>
-            <sparkle:version>138</sparkle:version>
-            <sparkle:shortVersionString>1.0.12</sparkle:shortVersionString>
+            <title>1.0.13</title>
+            <pubDate>Tue, 24 Nov 2026 15:18:53 +0800</pubDate>
+            <link>https://github.com/RoperYoung/NeoSoundControl-for-mac</link>
+            <sparkle:version>139</sparkle:version>
+            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Mac Sound Control 1.0.12
+            <description sparkle:format="markdown"><![CDATA[# NeoSoundControl 1.0.13
 
-- 菜单栏下拉面板更紧凑，缩小了文字、图标和行高，并为顶部的系统输出音量留出少量间距。
-- 主窗口的应用名称使用常规字重，红黄绿按钮沿用 macOS 原生悬浮交互，位置与标题栏对齐。
-- 偏好设置在主窗口右侧打开，可通过侧栏或 ⌘, 进入。
-- 麦克风测试期间，菜单栏仍使用喇叭图标显示系统输出音量。
+Mac Sound Control 现已更名为 NeoSoundControl。新版继续使用已有的音量和偏好设置。
 
-支持 Apple Silicon 和 Intel Mac。基础功能需要 macOS 14 或以上版本，分应用音量需要 macOS 15 或以上版本。
+- 菜单栏面板宽度调整为 342 pt，文字和设备行比 1.0.12 略大。
+- 在偏好设置的“外观”卡片中切换跟随系统、浅色或深色，选择简体中文或 English，或让语言跟随系统。
+- “状态栏显示图标”开关立即控制右上角的扬声器图标。隐藏后仍可在主窗口打开菜单栏控制。
+- 页脚的访问提示与顶部卡片左边缘对齐。
 
 ## English
 
-- The menu bar dropdown uses smaller text, icons and rows, with a little space above system output volume.
-- App names in the main window use regular weight. The native window buttons are inset and aligned with the title bar.
-- Open Preferences in the main window from the sidebar or with Command-comma.
-- The menu bar speaker continues to show system output volume during microphone tests.
+Mac Sound Control is now NeoSoundControl. The app keeps your existing volumes and preferences.
 
-Universal for Apple Silicon and Intel. Requires macOS 14 or later, with macOS 15 or later for per-app volume.
+- The menu bar panel is now 342 pt wide, with slightly larger text and device rows.
+- The Appearance card in Preferences lets you follow the system theme or select Light or Dark. Choose Simplified Chinese, English, or the system language.
+- Show Icon in Menu Bar controls the speaker icon. When it is hidden, you can still open the controls from the main window.
+- The footer hint aligns with the left edge of the cards.
 ]]></description>
-            <enclosure url="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases/download/v1.0.12/Mac-Sound-Control-1.0.12.dmg" length="3667626" type="application/octet-stream" sparkle:edSignature="e+hSYS6R8KI+yAxJ6ycTy8mRQ4NFXLxkYNslIETQJVp/us8OxLuKmye3WXS+ght+s9RUVXVAYmaLbNJk1EQuAg=="/>
+            <enclosure url="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases/download/v1.0.13/NeoSoundControl-1.0.13.dmg" length="3734647" type="application/octet-stream" sparkle:edSignature="WwKSfjvZVUFll/3YEJWcFQKfsHIVd+fhtrML9JHBlLPPfnXAq988fHCxv6w3qga+7kFnso0Crfo2kgHXHshHCA=="/>
         </item>
     </channel>
 </rss>

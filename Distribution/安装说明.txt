@@ -1,9 +1,9 @@
-Mac Sound Control 1.0.12（Build 138）
+NeoSoundControl 1.0.13（Build 139）
 
 安装：
-1. 打开 Mac-Sound-Control-1.0.12.dmg。
-2. 将“Mac Sound Control.app”拖入“应用程序”文件夹。
-3. 从“应用程序”中启动 Mac Sound Control；手动打开时主界面会自动置前。
+1. 打开 NeoSoundControl-1.0.13.dmg。
+2. 将“NeoSoundControl.app”拖入“应用程序”文件夹。
+3. 从“应用程序”中启动 NeoSoundControl；手动打开时主界面会自动置前。
 4. 按实际使用的功能授予麦克风或“屏幕与系统音频录制”权限。
 
 当前正式版同时支持 Apple Silicon 与 Intel Mac。DMG 与应用均已使用 Apple Developer ID 签名、通过 Apple 公证，并装订公证票据。
@@ -18,6 +18,7 @@ Mac Sound Control 1.0.12（Build 138）
 - 单独保存和控制每个应用的音量。
 - 让当前麦克风保持在线，并实时测试输入电平。
 - 支持开机启动、虚拟设备显示和输入通道重连。
+- 偏好设置的“外观”卡片可切换主题、语言和状态栏图标。
 - 通过 Sparkle 安全检查并安装后续版本。
 
 首次打开：
@@ -30,4 +31,4 @@ Mac Sound Control 1.0.12（Build 138）
 - 网络访问仅用于读取静态更新清单，并在用户确认后下载 GitHub Release 更新包。
 
 官方发布页：
-https://github.com/RoperYoung/MacSoundControl-for-Mac/releases
+https://github.com/RoperYoung/NeoSoundControl-for-mac/releases

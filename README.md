@@ -1,10 +1,10 @@
 <a id="readme-top"></a>
 
 <p align="center">
-  <img src="Assets/AppIcon.png" width="116" height="116" alt="Mac Sound Control 应用图标">
+  <img src="Assets/AppIcon.png" width="116" height="116" alt="NeoSoundControl 应用图标">
 </p>
 
-<h1 align="center">Mac Sound Control</h1>
+<h1 align="center">NeoSoundControl</h1>
 
 <p align="center">
   <strong>让声音，各就各位。系统、应用与麦克风，在一个原生面板里安排妥当。</strong>
@@ -17,13 +17,13 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">
-    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 Mac Sound Control 1.0.12（Build 138）">
+  <a href="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases">
+    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 NeoSoundControl 1.0.13（Build 139）">
   </a>
 </p>
 
 <p align="center">
-  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/MacSoundControl-for-Mac/releases">查看全部版本</a></sub>
+  <sub>macOS 14+ · Apple Silicon + Intel · <a href="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases">查看全部版本</a></sub>
 </p>
 
 ---
@@ -38,24 +38,26 @@
 
 ## 两种界面，同一份声音设置
 
-> 1.0.12 收紧了菜单栏面板，主窗口右侧可直接打开偏好设置。以下界面使用示例音频设备与应用。
+> 1.0.13 将 Mac Sound Control 更名为 NeoSoundControl。菜单栏面板宽 342 pt，偏好设置新增主题、语言和“状态栏显示图标”开关。以下界面使用示例音频设备与应用。
 
 <table>
 <tr><th width="38%">菜单栏 · 随时调节</th><th width="62%">主界面 · 集中管理</th></tr>
 <tr>
 <td valign="top"><a href="docs/images/menubar-current.png"><img src="docs/images/menubar-current.png" width="420" alt="完整的菜单栏下拉面板：系统音量、应用音量、输入输出设备与常驻设置"></a></td>
-<td valign="top"><a href="docs/images/overview-current.png"><img src="docs/images/overview-current.png" width="700" alt="新版主窗口和分应用音量控制"></a><br><br><strong>点开菜单栏，常用操作就在手边。</strong><br>调整系统与各应用音量、切换输入输出、开启麦克风常驻。主窗口提供分类导航、设备详情与声音测试，两处控制共享同一份设置。<br><br><strong>熟悉的 Mac 快捷键</strong><br>⌘Q 退出 · ⌘W 关闭窗口 · ⌘, 偏好设置 · ⌘H 隐藏<br><br><a href="https://roperyoung.github.io/MacSoundControl-for-Mac/">浏览产品主页 ↗</a><br><a href="docs/images/menubar-current.png">查看完整下拉菜单截图 ↗</a></td>
+<td valign="top"><a href="docs/images/overview-current.png"><img src="docs/images/overview-current.png" width="700" alt="新版主窗口和分应用音量控制"></a><br><br><strong>点开菜单栏，常用操作就在手边。</strong><br>调整系统与各应用音量、切换输入输出、开启麦克风常驻。主窗口提供分类导航、设备详情与声音测试，两处控制共享同一份设置。<br><br><strong>熟悉的 Mac 快捷键</strong><br>⌘Q 退出 · ⌘W 关闭窗口 · ⌘, 偏好设置 · ⌘H 隐藏<br><br><a href="https://roperyoung.github.io/NeoSoundControl-for-mac/">浏览产品主页 ↗</a><br><a href="docs/images/menubar-current.png">查看完整下拉菜单截图 ↗</a></td>
 </tr></table>
 
-<table><tr><th>紧凑设备列表</th><th>声音测试</th></tr><tr><td><img src="docs/images/devices-1.0.12.png" alt="紧凑的输入输出设备卡片"></td><td><img src="docs/images/inputTest-1.0.12.png" alt="原生麦克风声音测试"></td></tr></table>
+<table><tr><th>紧凑设备列表</th><th>声音测试</th></tr><tr><td><img src="docs/images/devices-1.0.13.png" alt="紧凑的输入输出设备卡片"></td><td><img src="docs/images/inputTest-1.0.13.png" alt="原生麦克风声音测试"></td></tr></table>
+
+[查看外观、语言和状态栏图标设置](docs/images/preferences-1.0.13.png)
 
 ---
 
 ## 产品介绍
 
-Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个地方切换系统输入与输出、调整系统总音量、分别控制应用音量，并让当前麦克风保持在线。它使用 AppKit 与 CoreAudio 构建，不使用 WebView，也不会在 Dock 中留下多余图标。
+NeoSoundControl 是一款原生 macOS 菜单栏工具。你可以在同一个地方切换系统输入与输出、调整系统总音量、分别控制应用音量，并让当前麦克风保持在线。它使用 AppKit 与 CoreAudio 构建，不使用 WebView，也不会在 Dock 中留下多余图标。
 
-当前正式版本为 **1.0.12（Build 138）**，同时支持 Apple Silicon 与 Intel Mac。
+当前正式版本为 **1.0.13（Build 139）**，同时支持 Apple Silicon 与 Intel Mac。
 
 ### 核心能力
 
@@ -79,7 +81,7 @@ Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个�
 
 ### 安装
 
-1. 打开 [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases)，下载最新的 DMG。
+1. 打开 [GitHub Releases](https://github.com/RoperYoung/NeoSoundControl-for-mac/releases)，下载最新的 DMG。
 2. 打开 DMG，将应用拖入“应用程序”文件夹。
 3. 启动应用，并按实际使用的功能授予麦克风或系统音频权限。
 4. 点击菜单栏中的扬声器图标开始使用。
@@ -105,9 +107,9 @@ Mac Sound Control 是一款原生 macOS 菜单栏工具。你可以在同一个�
 
 ### 仓库与源码
 
-这里是 Mac Sound Control 的官方产品与发布仓库，保留产品说明、真实运行截图、更新清单、发布说明和第三方声明。应用源码、测试、构建配置、签名和公证工具不在此仓库中，因此无法从当前仓库二次构建应用。
+这里是 NeoSoundControl 的官方产品与发布仓库，保留产品说明、真实运行截图、更新清单、发布说明和第三方声明。应用源码、测试、构建配置、签名和公证工具不在此仓库中，因此无法从当前仓库二次构建应用。
 
-Mac Sound Control 当前不作为开源软件发布。请只从本项目的 [GitHub Releases](https://github.com/RoperYoung/MacSoundControl-for-Mac/releases) 下载由维护者签名并经 Apple 公证的正式版本。
+NeoSoundControl 当前不作为开源软件发布。请只从本项目的 [GitHub Releases](https://github.com/RoperYoung/NeoSoundControl-for-mac/releases) 下载由维护者签名并经 Apple 公证的正式版本。
 
 ### 第三方声明
 

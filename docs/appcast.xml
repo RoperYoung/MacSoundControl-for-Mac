@@ -3,31 +3,21 @@
     <channel>
         <title>NeoSoundControl</title>
         <item>
-            <title>1.0.13</title>
-            <pubDate>Tue, 24 Nov 2026 15:18:53 +0800</pubDate>
+            <title>1.0.14</title>
+            <pubDate>Wed, 25 Nov 2026 16:58:48 +0800</pubDate>
             <link>https://github.com/RoperYoung/NeoSoundControl-for-mac</link>
-            <sparkle:version>139</sparkle:version>
-            <sparkle:shortVersionString>1.0.13</sparkle:shortVersionString>
+            <sparkle:version>140</sparkle:version>
+            <sparkle:shortVersionString>1.0.14</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# NeoSoundControl 1.0.13
+            <description sparkle:format="markdown"><![CDATA[# NeoSoundControl 1.0.14
 
-Mac Sound Control 现已更名为 NeoSoundControl。新版继续使用已有的音量和偏好设置。
-
-- 菜单栏面板宽度调整为 342 pt，文字和设备行比 1.0.12 略大。
-- 在偏好设置的“外观”卡片中切换跟随系统、浅色或深色，选择简体中文或 English，或让语言跟随系统。
-- “状态栏显示图标”开关立即控制右上角的扬声器图标。隐藏后仍可在主窗口打开菜单栏控制。
-- 页脚的访问提示与顶部卡片左边缘对齐。
+修复了使用 iShot 等多输出设备时，单个应用在 100% 有声、调低后突然静音的问题。在主窗口或菜单栏选择“分开控制”，从 90% 拖到 89%、88% 时，应用的输出振幅会随每个百分点逐步降低。拉到 0% 可静音，调高即可恢复播放。
 
 ## English
 
-Mac Sound Control is now NeoSoundControl. The app keeps your existing volumes and preferences.
-
-- The menu bar panel is now 342 pt wide, with slightly larger text and device rows.
-- The Appearance card in Preferences lets you follow the system theme or select Light or Dark. Choose Simplified Chinese, English, or the system language.
-- Show Icon in Menu Bar controls the speaker icon. When it is hidden, you can still open the controls from the main window.
-- The footer hint aligns with the left edge of the cards.
+Fixed an issue that could silence an app as soon as its volume dropped below 100% on a multi-output device such as iShot. With separate volume control enabled in the main window or menu bar, moving from 90% to 89% to 88% now lowers the output amplitude at each step. Set an app to 0% to mute it and raise the slider to hear it again.
 ]]></description>
-            <enclosure url="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases/download/v1.0.13/NeoSoundControl-1.0.13.dmg" length="3734647" type="application/octet-stream" sparkle:edSignature="WwKSfjvZVUFll/3YEJWcFQKfsHIVd+fhtrML9JHBlLPPfnXAq988fHCxv6w3qga+7kFnso0Crfo2kgHXHshHCA=="/>
+            <enclosure url="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases/download/v1.0.14/NeoSoundControl-1.0.14.dmg" length="3738434" type="application/octet-stream" sparkle:edSignature="H/zoT/v8N6f4SpYj5RLarVW9g40q4gyHFoEhyfb8kbx/qn8AKE6o3mHtPacGKiwd4ppcMMvKEU+fmRQFmCG3CQ=="/>
         </item>
     </channel>
 </rss>

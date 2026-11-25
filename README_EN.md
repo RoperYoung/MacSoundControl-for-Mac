@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases">
-    <img src="Assets/download-macos-en.svg" width="280" alt="Download NeoSoundControl 1.0.13 (Build 139)">
+    <img src="Assets/download-macos-en.svg" width="280" alt="Download NeoSoundControl 1.0.14 (Build 140)">
   </a>
 </p>
 
@@ -38,7 +38,7 @@
 
 ## Two views. One set of sound controls.
 
-> Mac Sound Control is now NeoSoundControl. Version 1.0.13 adds a 342 pt menu bar panel and preferences for appearance, language and menu bar icon visibility. The screenshots use sample devices and apps.
+> Version 1.0.14 fixes a playback issue on multi-output devices that could silence an app when you lowered its volume below 100%. The screenshots use sample devices and apps.
 
 <table>
 <tr><th width="38%">Menu bar · Quick control</th><th width="62%">Main window · A complete overview</th></tr>
@@ -57,7 +57,7 @@
 
 NeoSoundControl is a native macOS menu bar utility for switching system inputs and outputs, adjusting the main output, controlling application volumes independently, and keeping the current microphone awake. It is built with AppKit and CoreAudio, uses no WebView, and stays out of the Dock.
 
-The current production release is **1.0.13 (Build 139)**, delivered as a Universal app for Apple Silicon and Intel Macs.
+The current production release is **1.0.14 (Build 140)**, delivered as a Universal app for Apple Silicon and Intel Macs.
 
 ### Highlights
 

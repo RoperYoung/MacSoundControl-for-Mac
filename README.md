@@ -18,7 +18,7 @@
 
 <p align="center">
   <a href="https://github.com/RoperYoung/NeoSoundControl-for-mac/releases">
-    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 NeoSoundControl 1.0.13（Build 139）">
+    <img src="Assets/download-macos-zh.svg" width="280" alt="下载 NeoSoundControl 1.0.14（Build 140）">
   </a>
 </p>
 
@@ -38,7 +38,7 @@
 
 ## 两种界面，同一份声音设置
 
-> 1.0.13 将 Mac Sound Control 更名为 NeoSoundControl。菜单栏面板宽 342 pt，偏好设置新增主题、语言和“状态栏显示图标”开关。以下界面使用示例音频设备与应用。
+> 1.0.14 修复了使用多输出设备时，将单个应用音量从 100% 调低就没有声音的问题。以下界面使用示例音频设备与应用。
 
 <table>
 <tr><th width="38%">菜单栏 · 随时调节</th><th width="62%">主界面 · 集中管理</th></tr>
@@ -57,7 +57,7 @@
 
 NeoSoundControl 是一款原生 macOS 菜单栏工具。你可以在同一个地方切换系统输入与输出、调整系统总音量、分别控制应用音量，并让当前麦克风保持在线。它使用 AppKit 与 CoreAudio 构建，不使用 WebView，也不会在 Dock 中留下多余图标。
 
-当前正式版本为 **1.0.13（Build 139）**，同时支持 Apple Silicon 与 Intel Mac。
+当前正式版本为 **1.0.14（Build 140）**，同时支持 Apple Silicon 与 Intel Mac。
 
 ### 核心能力
 
